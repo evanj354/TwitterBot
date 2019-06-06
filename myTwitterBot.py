@@ -3,10 +3,10 @@ import markovChain
 
 print("This is my twitter bot") 
 
-CONSUMER_KEY = 'xBrF3oxTPbHZ3MBNUTb44pxfr'
-CONSUMER_SECRET = 'j3aSNqKo6vEEAbKIgyEUKieTEiCQ7aQr4Hf5gpPsYzqnAgWmzE'
-ACCESS_KEY = '930213357008822272-atSpInyEz33mRFBdNSS9gHkxqRNpwt7'
-ACCESS_SECRET = 'yt6j7L9iDtXJwfyC8Rwx5JwqSFdBoxwrlzlTrJqnZ0MLM'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
